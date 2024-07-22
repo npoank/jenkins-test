@@ -16,7 +16,7 @@ public class NewServlet extends HttpServlet {
         PrintWriter pw = response.getWriter();
 
         pw.println("<html>");
-        pw.println("<h1> Java is cool </h1>");
+        pw.println("<h1> Hello world </h1>");
         pw.println("</html>");
     }
 
